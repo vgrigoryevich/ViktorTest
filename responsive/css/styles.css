@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+.container{
+
+}
+
+.box{
+width: 50%;
+margin: 0 auto;
+height: 600px;
+background-color: antiquewhite;
+}
+
+.box2{
+    width: 50%;
+    margin: auto;
+    height: 600px;
+    background-color: aquamarine;
+}
+
+.inner{
+    margin: 0 auto;
+    width: 50%;
+    height: 200px;
+background-color: violet;
+}
+
+.innerTwo{
+    margin: 0 auto;
+    width: 50%;
+    height: 200px;
+    background-color: brown;
+}
+
+
+
+@media (min-width: 768px) {
+   .box{
+       background-color: azure;
+       display: flex;
+   }
+}
+
+@media (min-width: 1024px) {
+    .box{
+        padding: 0 100px;
+    }
+}

@@ -1,0 +1,31 @@
+/* Вёрстка выпадающего меню */
+
+/* .form{
+    margin: auto;
+display: block;
+} */
+
+.wrapper{
+    width: 800px;
+    margin: auto;
+}
+
+tbody {
+    border-collapse: collapse;
+}
+
+td,  th{
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+
+img{
+    width: 100%;
+}
+
+.icon{
+width: 100px;
+height: 100px;
+}    

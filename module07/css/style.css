@@ -22,7 +22,7 @@ form{
 }
 
 input{
-    border: 3px solid mediumpurple;
+    border: 3px solid gray;
     width: 300px;
     height: 20px;
     border-radius: 20%;
@@ -41,4 +41,15 @@ textarea{
 
 button{
         background-color: bisque;
+}
+
+/* VALID INVALID */
+
+input:valid{
+    border: 2px solid greenyellow;
+}
+
+input:invalid{
+  border: 2px solid red;
+
 }
