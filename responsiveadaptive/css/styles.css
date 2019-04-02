@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.box{
+    display: flex;
+    border: 1px solid red;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.boxOne, .boxTwo, .boxThree {
+    width: 33,33%;
+    height: 100px;
+}
+
+.boxOne {
+    background-color: red;
+}
+
+.boxTwo {
+    background-color: antiquewhite;
+}
+
+.boxThree {
+    background-color: black;
+}
